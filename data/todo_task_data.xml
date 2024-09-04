@@ -1,0 +1,10 @@
+<!-- data/todo_task_data.xml -->
+<odoo>
+    <record id="todo_task_1" model="todo.task">
+        <field name="name">Sample Task 1</field>
+        <field name="due_date">2024-09-10</field>
+        <field name="description">This is a sample task description.</field>
+        <field name="assign_to_id" ref="base.partner_admin"/>
+        <field name="state">new</field>
+    </record>
+</odoo>
